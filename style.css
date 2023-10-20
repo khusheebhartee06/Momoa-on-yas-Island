@@ -1,0 +1,230 @@
+video {
+    position: absolute;
+
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
+
+.navbar-toggler {
+    text-align: right;
+    line-height: 3px;
+    font-size: 20px;
+
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.mycol1 img {
+    border-radius: 80%;
+}
+.navbar-nav .dropdown-toggle .dropdowm-menu{
+    background-color: #272727;
+    width: 185px;
+position: absolute;
+top: 85px;
+line-height: 55px;
+}
+.nav-item:hover {
+    background-color: rgb(188, 182, 182);
+    color: black;
+    border-radius: 20px;
+}
+
+.MYROW .col-auto {
+    margin: 10%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.MYROW a {
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 8px 13px;
+}
+
+.MYROW a:hover {
+    background-color: rgb(241, 214, 6);
+}
+
+.btn-outline-primary {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#mycontainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 49, 127);
+
+}
+
+.main {
+    display: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-basis: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px gray;
+}
+
+.main h2 {
+    padding: 20px 20px 10px 20px;
+
+}
+
+.main form {
+    padding: 0 20px 20px 20px;
+}
+
+.form-outer {
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+
+.form-outer label {
+    display: block;
+    padding: 10px 0;
+
+}
+
+.form-outer input {
+    width: 100%;
+    height: 30px;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.close {
+
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.main button {
+    background-color: hsl(130, 54%, 46%);
+    color: white;
+    padding: 10px 0;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 18px;
+    border: 0;
+}
+.myrow1 img{
+    filter: grayscale(100%);
+    transition: all 1s 0.5ms;
+}
+.myrow1 img:hover{
+    filter: grayscale(0%);
+}
+.active{
+    background-color: rgb(188, 182, 182);
+    color: black;
+    border-radius: 20px;
+}
+#btn {
+    border: 0;
+    padding: 13px 13px;
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    color: white;
+    width: auto;
+    font-size: 22px;
+    background-color: hsl(130, 48%, 37%);
+}
+
+#btn:hover {
+    opacity: 0.8;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.colmyfirst .col-lg-4:hover {
+    color: white;
+    background-color: gray;
+    border-radius: 30px;
+}
+.colmyfirst .active1{
+    color: white;
+    background-color: gray;
+    border-radius: 30px;
+}
+@media screen and (min-width:1300px) {
+    .container-lg {
+        padding-top: 60%;
+
+    }
+
+    .mycontainer {
+        background-color: white;
+        color: black;
+        border-bottom: 2px solid black;
+    }
+
+}
+
+@media screen and (max-width:1300px) {
+    .container-lg {
+        padding-top: 65%;
+
+    }
+
+
+}
+
+@media screen and (max-width:950px) {
+    .container-lg {
+        padding-top: 70%;
+
+    }
+
+    .navbar {
+        background-color: white;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .container-lg {
+        padding-top: 80%;
+
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container-lg {
+        padding-top: 100%;
+
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
